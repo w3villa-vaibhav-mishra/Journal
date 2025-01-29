@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import bag from '../assets/photos/bags.jpg'
 import HP from '../assets/photos/HP.jpg'
-import HOMEDECOR from '../assets/photos/home decor.webp'
+import HOMEDECOR from '../assets/photos/homedecr.jpg'
 import footwear from '../assets/photos/footwear.webp'
 
 
@@ -54,27 +54,27 @@ function CategoryCarousal() {
       <Slider {...settings}>
         <div className='  h-[100%] w-[100%]'>
           <h3><img src={bag} alt="" className='h-[100%] w-[98%] relative'/></h3>
-          <div className='flex justify-center'><div className='text-white absolute bottom-4 px-2 bg-red-800'>BAG</div></div>
+          <div className='flex justify-center'><div className='text-white absolute bottom-4 px-2 bg-red-800 font-semibold text-[20px]'>BAG</div></div>
         </div>
         <div className='  h-[100%] w-[100%]'>
           <h3><img src={HP} alt="" className='h-[100%] w-[98%] relative '/></h3>
-          <div className='flex justify-center'><div className='text-white absolute bottom-4 px-2 bg-black'>HEADPHONE</div></div>
+          <div className='flex justify-center'><div className='text-white absolute bottom-4 px-2 bg-black font-semibold text-[20px]'>HEADPHONE</div></div>
         </div>
         <div className='  h-[100%] w-[100%]'>
           <h3><img src={HOMEDECOR} alt="" className='h-[100%] w-[98%] relative'/></h3>
-          <div className='flex justify-center'><div className='text-black absolute bottom-4 px-2 bg-slate-300'>HOME DECOR</div></div>
+          <div className='flex justify-center'><div className='text-black absolute bottom-4 px-2 bg-slate-300 font-semibold text-[20px]'>HOME DECOR</div></div>
         </div>
         <div className='  h-[100%] w-[100%]'>
           <h3><img src={footwear} alt="" className='h-[100%] w-[98%] relative'/></h3>
-          <div className='flex justify-center'><div className='text-white absolute bottom-4 px-2 bg-slate-800'>SHOES</div></div>
+          <div className='flex justify-center'><div className='text-white absolute bottom-4 px-2 bg-slate-800 font-semibold text-[20px]'>SHOES</div></div>
         </div>
         <div className='  h-[100%] w-[100%]'>
           <h3><img src={bag} alt="" className='h-[100%] w-[98%] relative'/></h3>
-          <div className='flex justify-center'><div className='text-black absolute bottom-4 px-2 bg-slate-400'>BAG</div></div>
+          <div className='flex justify-center'><div className='text-black absolute bottom-4 px-2 bg-slate-400 font-semibold text-[20px]'>BAG</div></div>
         </div>
         <div className='  h-[100%] w-[100%]'>
           <h3><img src={bag} alt="" className='h-[100%] w-[98%] relative'/></h3>
-          <div className='flex justify-center'><div className='text-black absolute bottom-4 px-2 bg-slate-400'>BAG</div></div>
+          <div className='flex justify-center'><div className='text-black absolute bottom-4 px-2 bg-slate-400 font-semibold text-[20px]'>BAG</div></div>
         </div>
       </Slider>
     </div>

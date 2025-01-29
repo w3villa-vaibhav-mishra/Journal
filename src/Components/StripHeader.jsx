@@ -17,7 +17,7 @@ function StripHeader() {
   return (
     <>
       <div className=" flex w-full] justify-center ">
-        <div className="flex items-center justify-between max-w-[1600px] w-full my-1 border-2 px-2 ">
+        <div className="flex items-center justify-between max-w-[1600px] w-full my-1 border-2 px-2 border-none">
           <div className="flex items-center ">
             <ul className='flex gap-4 align-middle my-2'>
               <li className='flex align-middle'> <FaHome className='text-[20px] mr-[2px] ' /> Home</li>

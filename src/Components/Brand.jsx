@@ -58,10 +58,10 @@ function Brand() {
 
       <div className="flex w-full] justify-center bg-white">
         <div className="flex flex-col flex-wrap justify-start max-w-[1600px] w-full my-2 py-10">
-          <div className='flex justify-items-start  sm:justify-center  text-black w-full  md:text-[30px] font-bold'>
+          <div className='flex justify-items-start  sm:justify-center  text-black w-full  md:text-[30px] font-bold px-[5px]'>
             Shop By Brand
           </div>
-          <div className='sm:flex justify-center'><div className=' w-20 sm:flex justify-center border-t-2  border-orange-500  '></div>
+          <div className='sm:flex justify-center'><div className=' w-20 sm:flex justify-center border-t-2  border-orange-500 ml-[5px] '></div>
                 </div>
           <div className="slider-container w-full  p-5 py-10 ">
             <Slider {...settings}>

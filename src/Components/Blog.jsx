@@ -58,14 +58,14 @@ function Blog() {
 
       <div className="flex w-full] justify-center bg-gray">
         <div className="flex flex-col  justify-start max-w-[1600px] w-full my-2  py-10  h-800px">
-          <div className='flex justify-items-start  sm:justify-center  text-black w-full  md:text-[30px] font-bold'>
+          <div className='flex justify-items-start  sm:justify-center  text-black w-full  md:text-[30px] font-bold px-[5px]'>
             Shop By Blog
           </div>
-          <div className='sm:flex justify-center'><div className=' w-20 sm:flex justify-center border-t-2  border-orange-500  '></div>
+          <div className='sm:flex justify-center'><div className=' w-20 sm:flex justify-center border-t-2  border-orange-500  ml-[5px]'></div>
                 </div>
           <div className="slider-container w-full  py-10  h-[750px] text-[14px] sm:ml-[15px]">
             <Slider {...settings}>
-              <div className='border-2 border-gray-300 relative h-[100%] max-w-[90%]  ml-10 md:ml-0'>
+              <div className='border-2 border-gray-300 relative h-[100%] max-w-[90%]  ml-5 md:ml-0'>
                 <div className='h-[50%] w-full border-2 '>
                 <img src={G1} alt=""  className=' h-[100%] w-full object-cover object-center ' />
                 </div>
